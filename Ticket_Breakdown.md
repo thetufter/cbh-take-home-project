@@ -20,9 +20,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 - Title: Create a table for FacilityAgentInfo
 - Description: This table will be used to create a many-to-many relationship between Facility and Agent data models, so we can save extra information for each Agent per Facility.
-- Acceptance Criteria:
-  1. A database table created with 3 columns: facilityId(INT, NOT NULL), agentId(INT, NOT NULL), agentCustomId(STRING, NOT NULL, MAX 255)
-  2.
+- Acceptance Criteria: A database table created with 3 columns: facilityId(INT, NOT NULL), agentId(INT, NOT NULL), agentCustomId(STRING, NOT NULL, MAX 255)
 - Time estimate: Implementation 1 hour, Testing: 1 hour, Total: 2 hours
 - Implementation Details:
   Create a database table with the 3 columns provided in the acceptance criteria and make sure that you use the right data type. All columns cannot be NULL.
